@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+#title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Carter One', cursive;
+    font-size: xx-large;
+}
+#board{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap:10px;
+    background-color: darkblue;
+    width:320px;
+    height:320px;
+}
+.sector{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#playerSelection{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 55px;
+    width: 100px;
+    margin: 10px;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
